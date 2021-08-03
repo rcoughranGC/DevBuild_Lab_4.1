@@ -28,7 +28,7 @@ namespace DevBuild_Lab4_1
             public void Resize(double newLength, double newWidth)
             {
 
-                if (newLength != 0 && newWidth != 0)
+                if (newLength >= 0 && newWidth >= 0)
                 {
                     Length = newLength;
                     Width = newWidth;
